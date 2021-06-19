@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		207942D4267E82C10041DE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207942D3267E82C10041DE4E /* Assets.xcassets */; };
+		207942DB267E82C10041DE4E /* BuddyWtch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 207942DA267E82C10041DE4E /* BuddyWtch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		207942E0267E82C10041DE4E /* BuddySystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207942DF267E82C10041DE4E /* BuddySystemApp.swift */; };
+		207942E2267E82C10041DE4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207942E1267E82C10041DE4E /* ContentView.swift */; };
+		207942E4267E82C10041DE4E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207942E3267E82C10041DE4E /* NotificationController.swift */; };
+		207942E6267E82C10041DE4E /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207942E5267E82C10041DE4E /* NotificationView.swift */; };
+		207942E8267E82C10041DE4E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207942E7267E82C10041DE4E /* ComplicationController.swift */; };
+		207942EA267E82C20041DE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207942E9267E82C20041DE4E /* Assets.xcassets */; };
+		207942ED267E82C20041DE4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207942EC267E82C20041DE4E /* Preview Assets.xcassets */; };
+		207942F9267E82C20041DE4E /* BuddyWtchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207942F8267E82C20041DE4E /* BuddyWtchTests.swift */; };
+		20794304267E82C20041DE4E /* BuddyWtchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794303267E82C20041DE4E /* BuddyWtchUITests.swift */; };
+		20794308267E82C20041DE4E /* BuddyWtch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 207942D1267E82C00041DE4E /* BuddyWtch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AA13BBBF24F567AA005EB048 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBBE24F567AA005EB048 /* EditView.swift */; };
 		AA13BBC124F56EA9005EB048 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBC024F56EA9005EB048 /* ScrumProgressViewStyle.swift */; };
 		AA13BBC324F56EDB005EB048 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBC224F56EDB005EB048 /* ScrumTimer.swift */; };
@@ -33,7 +45,82 @@
 		AAD1604924F5BB640014DFC3 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1604824F5BB640014DFC3 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		207942DC267E82C10041DE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8ACE7824F44E01007DA4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207942D9267E82C10041DE4E;
+			remoteInfo = "BuddyWtch Extension";
+		};
+		207942F5267E82C20041DE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8ACE7824F44E01007DA4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207942D9267E82C10041DE4E;
+			remoteInfo = "BuddyWtch Extension";
+		};
+		20794300267E82C20041DE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8ACE7824F44E01007DA4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207942D0267E82C00041DE4E;
+			remoteInfo = BuddyWtch;
+		};
+		20794306267E82C20041DE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA8ACE7824F44E01007DA4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207942D0267E82C00041DE4E;
+			remoteInfo = BuddyWtch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		20794309267E82C20041DE4E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				20794308267E82C20041DE4E /* BuddyWtch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2079430C267E82C20041DE4E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				207942DB267E82C10041DE4E /* BuddyWtch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		207942D1267E82C00041DE4E /* BuddyWtch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyWtch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		207942D3267E82C10041DE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207942D5267E82C10041DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207942DA267E82C10041DE4E /* BuddyWtch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BuddyWtch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		207942DF267E82C10041DE4E /* BuddySystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddySystemApp.swift; sourceTree = "<group>"; };
+		207942E1267E82C10041DE4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		207942E3267E82C10041DE4E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		207942E5267E82C10041DE4E /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		207942E7267E82C10041DE4E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		207942E9267E82C20041DE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		207942EC267E82C20041DE4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		207942EE267E82C20041DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207942EF267E82C20041DE4E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		207942F4267E82C20041DE4E /* BuddyWtchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyWtchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		207942F8267E82C20041DE4E /* BuddyWtchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyWtchTests.swift; sourceTree = "<group>"; };
+		207942FA267E82C20041DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		207942FF267E82C20041DE4E /* BuddyWtchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyWtchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20794303267E82C20041DE4E /* BuddyWtchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyWtchUITests.swift; sourceTree = "<group>"; };
+		20794305267E82C20041DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA13BBBE24F567AA005EB048 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		AA13BBC024F56EA9005EB048 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		AA13BBC224F56EDB005EB048 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
@@ -63,6 +150,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		207942D7267E82C10041DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207942F1267E82C20041DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207942FC267E82C20041DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA8ACE7D24F44E01007DA4D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +181,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		207942D2267E82C00041DE4E /* BuddyWtch */ = {
+			isa = PBXGroup;
+			children = (
+				207942D3267E82C10041DE4E /* Assets.xcassets */,
+				207942D5267E82C10041DE4E /* Info.plist */,
+			);
+			path = BuddyWtch;
+			sourceTree = "<group>";
+		};
+		207942DE267E82C10041DE4E /* BuddyWtch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				207942DF267E82C10041DE4E /* BuddySystemApp.swift */,
+				207942E1267E82C10041DE4E /* ContentView.swift */,
+				207942E3267E82C10041DE4E /* NotificationController.swift */,
+				207942E5267E82C10041DE4E /* NotificationView.swift */,
+				207942E7267E82C10041DE4E /* ComplicationController.swift */,
+				207942E9267E82C20041DE4E /* Assets.xcassets */,
+				207942EE267E82C20041DE4E /* Info.plist */,
+				207942EF267E82C20041DE4E /* PushNotificationPayload.apns */,
+				207942EB267E82C20041DE4E /* Preview Content */,
+			);
+			path = "BuddyWtch Extension";
+			sourceTree = "<group>";
+		};
+		207942EB267E82C20041DE4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				207942EC267E82C20041DE4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		207942F7267E82C20041DE4E /* BuddyWtchTests */ = {
+			isa = PBXGroup;
+			children = (
+				207942F8267E82C20041DE4E /* BuddyWtchTests.swift */,
+				207942FA267E82C20041DE4E /* Info.plist */,
+			);
+			path = BuddyWtchTests;
+			sourceTree = "<group>";
+		};
+		20794302267E82C20041DE4E /* BuddyWtchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20794303267E82C20041DE4E /* BuddyWtchUITests.swift */,
+				20794305267E82C20041DE4E /* Info.plist */,
+			);
+			path = BuddyWtchUITests;
+			sourceTree = "<group>";
+		};
 		AA13BBC424F56F0E005EB048 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +259,10 @@
 			children = (
 				AAB25838256314BB00B279A9 /* README.md */,
 				AA8ACE8224F44E01007DA4D8 /* Scrumdinger */,
+				207942D2267E82C00041DE4E /* BuddyWtch */,
+				207942DE267E82C10041DE4E /* BuddyWtch Extension */,
+				207942F7267E82C20041DE4E /* BuddyWtchTests */,
+				20794302267E82C20041DE4E /* BuddyWtchUITests */,
 				AA8ACE8124F44E01007DA4D8 /* Products */,
 				AA8ACE9224F44F85007DA4D8 /* LICENSE */,
 			);
@@ -109,6 +272,10 @@
 			isa = PBXGroup;
 			children = (
 				AA8ACE8024F44E01007DA4D8 /* BuddySystem.app */,
+				207942D1267E82C00041DE4E /* BuddyWtch.app */,
+				207942DA267E82C10041DE4E /* BuddyWtch Extension.appex */,
+				207942F4267E82C20041DE4E /* BuddyWtchTests.xctest */,
+				207942FF267E82C20041DE4E /* BuddyWtchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +323,76 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		207942D0267E82C00041DE4E /* BuddyWtch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20794314267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtch" */;
+			buildPhases = (
+				207942CF267E82C00041DE4E /* Resources */,
+				2079430C267E82C20041DE4E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207942DD267E82C10041DE4E /* PBXTargetDependency */,
+			);
+			name = BuddyWtch;
+			productName = BuddyWtch;
+			productReference = 207942D1267E82C00041DE4E /* BuddyWtch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		207942D9267E82C10041DE4E /* BuddyWtch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20794313267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtch Extension" */;
+			buildPhases = (
+				207942D6267E82C10041DE4E /* Sources */,
+				207942D7267E82C10041DE4E /* Frameworks */,
+				207942D8267E82C10041DE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BuddyWtch Extension";
+			productName = "BuddyWtch Extension";
+			productReference = 207942DA267E82C10041DE4E /* BuddyWtch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		207942F3267E82C20041DE4E /* BuddyWtchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20794315267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtchTests" */;
+			buildPhases = (
+				207942F0267E82C20041DE4E /* Sources */,
+				207942F1267E82C20041DE4E /* Frameworks */,
+				207942F2267E82C20041DE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				207942F6267E82C20041DE4E /* PBXTargetDependency */,
+			);
+			name = BuddyWtchTests;
+			productName = BuddyWtchTests;
+			productReference = 207942F4267E82C20041DE4E /* BuddyWtchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		207942FE267E82C20041DE4E /* BuddyWtchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20794316267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtchUITests" */;
+			buildPhases = (
+				207942FB267E82C20041DE4E /* Sources */,
+				207942FC267E82C20041DE4E /* Frameworks */,
+				207942FD267E82C20041DE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20794301267E82C20041DE4E /* PBXTargetDependency */,
+			);
+			name = BuddyWtchUITests;
+			productName = BuddyWtchUITests;
+			productReference = 207942FF267E82C20041DE4E /* BuddyWtchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		AA8ACE7F24F44E01007DA4D8 /* BuddySystem */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA8ACE8F24F44E03007DA4D8 /* Build configuration list for PBXNativeTarget "BuddySystem" */;
@@ -163,10 +400,12 @@
 				AA8ACE7C24F44E01007DA4D8 /* Sources */,
 				AA8ACE7D24F44E01007DA4D8 /* Frameworks */,
 				AA8ACE7E24F44E01007DA4D8 /* Resources */,
+				20794309267E82C20041DE4E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				20794307267E82C20041DE4E /* PBXTargetDependency */,
 			);
 			name = BuddySystem;
 			productName = Scrumdinger;
@@ -179,9 +418,23 @@
 		AA8ACE7824F44E01007DA4D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					207942D0267E82C00041DE4E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					207942D9267E82C10041DE4E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					207942F3267E82C20041DE4E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 207942D9267E82C10041DE4E;
+					};
+					207942FE267E82C20041DE4E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 207942D0267E82C00041DE4E;
+					};
 					AA8ACE7F24F44E01007DA4D8 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -201,11 +454,46 @@
 			projectRoot = "";
 			targets = (
 				AA8ACE7F24F44E01007DA4D8 /* BuddySystem */,
+				207942D0267E82C00041DE4E /* BuddyWtch */,
+				207942D9267E82C10041DE4E /* BuddyWtch Extension */,
+				207942F3267E82C20041DE4E /* BuddyWtchTests */,
+				207942FE267E82C20041DE4E /* BuddyWtchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		207942CF267E82C00041DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207942D4267E82C10041DE4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207942D8267E82C10041DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207942ED267E82C20041DE4E /* Preview Assets.xcassets in Resources */,
+				207942EA267E82C20041DE4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207942F2267E82C20041DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207942FD267E82C20041DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA8ACE7E24F44E01007DA4D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +510,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		207942D6267E82C10041DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207942E4267E82C10041DE4E /* NotificationController.swift in Sources */,
+				207942E2267E82C10041DE4E /* ContentView.swift in Sources */,
+				207942E8267E82C10041DE4E /* ComplicationController.swift in Sources */,
+				207942E0267E82C10041DE4E /* BuddySystemApp.swift in Sources */,
+				207942E6267E82C10041DE4E /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207942F0267E82C20041DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207942F9267E82C20041DE4E /* BuddyWtchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		207942FB267E82C20041DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20794304267E82C20041DE4E /* BuddyWtchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA8ACE7C24F44E01007DA4D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,7 +565,204 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		207942DD267E82C10041DE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207942D9267E82C10041DE4E /* BuddyWtch Extension */;
+			targetProxy = 207942DC267E82C10041DE4E /* PBXContainerItemProxy */;
+		};
+		207942F6267E82C20041DE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207942D9267E82C10041DE4E /* BuddyWtch Extension */;
+			targetProxy = 207942F5267E82C20041DE4E /* PBXContainerItemProxy */;
+		};
+		20794301267E82C20041DE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207942D0267E82C00041DE4E /* BuddyWtch */;
+			targetProxy = 20794300267E82C20041DE4E /* PBXContainerItemProxy */;
+		};
+		20794307267E82C20041DE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 207942D0267E82C00041DE4E /* BuddyWtch */;
+			targetProxy = 20794306267E82C20041DE4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2079430A267E82C20041DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = BuddyWtch_Extension;
+				INFOPLIST_FILE = BuddyWtch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		2079430B267E82C20041DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = BuddyWtch_Extension;
+				INFOPLIST_FILE = BuddyWtch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		2079430D267E82C20041DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BuddyWtch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JKW22Z5U4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BuddyWtch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		2079430E267E82C20041DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BuddyWtch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 8JKW22Z5U4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "BuddyWtch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		2079430F267E82C20041DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JKW22Z5U4;
+				INFOPLIST_FILE = BuddyWtchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger.BuddyWtchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyWtch Extension.appex/BuddyWtch Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		20794310267E82C20041DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JKW22Z5U4;
+				INFOPLIST_FILE = BuddyWtchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger.BuddyWtchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyWtch Extension.appex/BuddyWtch Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		20794311267E82C20041DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JKW22Z5U4;
+				INFOPLIST_FILE = BuddyWtchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger.BuddyWtchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = BuddyWtch;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		20794312267E82C20041DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JKW22Z5U4;
+				INFOPLIST_FILE = BuddyWtchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger.BuddyWtchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = BuddyWtch;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
 		AA8ACE8D24F44E03007DA4D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -411,6 +924,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20794313267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2079430D267E82C20041DE4E /* Debug */,
+				2079430E267E82C20041DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20794314267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2079430A267E82C20041DE4E /* Debug */,
+				2079430B267E82C20041DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20794315267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2079430F267E82C20041DE4E /* Debug */,
+				20794310267E82C20041DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20794316267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20794311267E82C20041DE4E /* Debug */,
+				20794312267E82C20041DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AA8ACE7B24F44E01007DA4D8 /* Build configuration list for PBXProject "BuddySystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
