@@ -19,6 +19,11 @@
 		207942F9267E82C20041DE4E /* BuddyWtchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207942F8267E82C20041DE4E /* BuddyWtchTests.swift */; };
 		20794304267E82C20041DE4E /* BuddyWtchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794303267E82C20041DE4E /* BuddyWtchUITests.swift */; };
 		20794308267E82C20041DE4E /* BuddyWtch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 207942D1267E82C00041DE4E /* BuddyWtch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2079431A267E8EF50041DE4E /* ServiceEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794319267E8EF50041DE4E /* ServiceEvent.swift */; };
+		2079431C267E901F0041DE4E /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079431B267E901F0041DE4E /* Color+Codable.swift */; };
+		20794321267E96150041DE4E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794320267E96150041DE4E /* Card.swift */; };
+		20794323267E9A570041DE4E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794322267E9A570041DE4E /* DetailView.swift */; };
+		20794325267E9EBF0041DE4E /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794324267E9EBF0041DE4E /* EventData.swift */; };
 		AA13BBBF24F567AA005EB048 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBBE24F567AA005EB048 /* EditView.swift */; };
 		AA13BBC124F56EA9005EB048 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBC024F56EA9005EB048 /* ScrumProgressViewStyle.swift */; };
 		AA13BBC324F56EDB005EB048 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBC224F56EDB005EB048 /* ScrumTimer.swift */; };
@@ -121,6 +126,11 @@
 		207942FF267E82C20041DE4E /* BuddyWtchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyWtchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20794303267E82C20041DE4E /* BuddyWtchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyWtchUITests.swift; sourceTree = "<group>"; };
 		20794305267E82C20041DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20794319267E8EF50041DE4E /* ServiceEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceEvent.swift; sourceTree = "<group>"; };
+		2079431B267E901F0041DE4E /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		20794320267E96150041DE4E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		20794322267E9A570041DE4E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		20794324267E9EBF0041DE4E /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 		AA13BBBE24F567AA005EB048 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		AA13BBC024F56EA9005EB048 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		AA13BBC224F56EDB005EB048 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
@@ -193,6 +203,8 @@
 		207942DE267E82C10041DE4E /* BuddyWtch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2079431D267E95E70041DE4E /* Components */,
+				20794318267E8EE30041DE4E /* Models */,
 				207942DF267E82C10041DE4E /* BuddySystemApp.swift */,
 				207942E1267E82C10041DE4E /* ContentView.swift */,
 				207942E3267E82C10041DE4E /* NotificationController.swift */,
@@ -202,6 +214,8 @@
 				207942EE267E82C20041DE4E /* Info.plist */,
 				207942EF267E82C20041DE4E /* PushNotificationPayload.apns */,
 				207942EB267E82C20041DE4E /* Preview Content */,
+				20794322267E9A570041DE4E /* DetailView.swift */,
+				20794324267E9EBF0041DE4E /* EventData.swift */,
 			);
 			path = "BuddyWtch Extension";
 			sourceTree = "<group>";
@@ -230,6 +244,30 @@
 				20794305267E82C20041DE4E /* Info.plist */,
 			);
 			path = BuddyWtchUITests;
+			sourceTree = "<group>";
+		};
+		20794317267E8DA30041DE4E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		20794318267E8EE30041DE4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20794319267E8EF50041DE4E /* ServiceEvent.swift */,
+				2079431B267E901F0041DE4E /* Color+Codable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2079431D267E95E70041DE4E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				20794320267E96150041DE4E /* Card.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		AA13BBC424F56F0E005EB048 /* Resources */ = {
@@ -283,6 +321,7 @@
 		AA8ACE8224F44E01007DA4D8 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				20794317267E8DA30041DE4E /* Components */,
 				AA8ACE8324F44E01007DA4D8 /* ScrumdingerApp.swift */,
 				AA8ACE8524F44E01007DA4D8 /* MeetingView.swift */,
 				AA5719D924F57DA3002316EB /* MeetingFooterView.swift */,
@@ -514,11 +553,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2079431A267E8EF50041DE4E /* ServiceEvent.swift in Sources */,
+				20794323267E9A570041DE4E /* DetailView.swift in Sources */,
+				20794325267E9EBF0041DE4E /* EventData.swift in Sources */,
 				207942E4267E82C10041DE4E /* NotificationController.swift in Sources */,
 				207942E2267E82C10041DE4E /* ContentView.swift in Sources */,
+				2079431C267E901F0041DE4E /* Color+Codable.swift in Sources */,
 				207942E8267E82C10041DE4E /* ComplicationController.swift in Sources */,
 				207942E0267E82C10041DE4E /* BuddySystemApp.swift in Sources */,
 				207942E6267E82C10041DE4E /* NotificationView.swift in Sources */,
+				20794321267E96150041DE4E /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

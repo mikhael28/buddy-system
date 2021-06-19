@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Binding var events: [ServiceEvent]
+    @Environment(\.scenePhase) private var scenePhase
+    @State private var isPresented = false
+    @State private var newEventData = ServiceEvent.Data()
+    let saveAction: () -> Void
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        List {
+            ForEach(events) { event in
+                    CardView(event: event)
+                }
+            }
+        }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}

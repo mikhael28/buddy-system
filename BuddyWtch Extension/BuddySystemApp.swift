@@ -9,10 +9,17 @@ import SwiftUI
 
 @main
 struct BuddySystemApp: App {
-    @SceneBuilder var body: some Scene {
+    @ObservedObject private var data = EventData()
+//    Scenebuilder object introduces glitch
+    var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                ContentView(events: $data.events) {
+                    data.save()
+                }
+            }
+            .onAppear {
+                data.load()
             }
         }
 
