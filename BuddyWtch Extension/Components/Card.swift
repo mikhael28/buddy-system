@@ -11,19 +11,21 @@ struct CardView: View {
             Spacer()
             HStack {
                 Label("\(event.attendees.count)", systemImage: "person.3")
+                    .padding(.leading, 10)
                     .accessibilityElement(children: .ignore)
                     .accessibilityLabel(Text("Attendees"))
                     .accessibilityValue(Text("\(event.attendees.count)"))
                 Spacer()
-                Label("\(event.lengthInMinutes)", systemImage: "clock")
-                    .padding(.trailing, 20)
+                Label("\(event.lengthInMinutes)m", systemImage: "clock")
+                    .padding(.leading, 20)
                     .accessibilityElement(children: .ignore)
                     .accessibilityLabel(Text("Event Length"))
                     .accessibilityValue(Text("\(event.lengthInMinutes) minutes"))
             }
             .font(.caption)
         }
-        .padding()
-        .foregroundColor(event.color.accessibleFontColor)
+        .padding(.leading)
+        // foreground color is font color
+        .foregroundColor(event.color)
     }
 }

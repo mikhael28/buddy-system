@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205626E0267FC88D004AEBD8 /* RecordFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205626DF267FC88D004AEBD8 /* RecordFetcher.swift */; };
+		205626E4267FCAAD004AEBD8 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205626E3267FCAAD004AEBD8 /* Profile.swift */; };
+		205626E6267FD703004AEBD8 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205626E5267FD703004AEBD8 /* RecordsView.swift */; };
 		207942D4267E82C10041DE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 207942D3267E82C10041DE4E /* Assets.xcassets */; };
 		207942DB267E82C10041DE4E /* BuddyWtch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 207942DA267E82C10041DE4E /* BuddyWtch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		207942E0267E82C10041DE4E /* BuddySystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207942DF267E82C10041DE4E /* BuddySystemApp.swift */; };
@@ -24,6 +27,10 @@
 		20794321267E96150041DE4E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794320267E96150041DE4E /* Card.swift */; };
 		20794323267E9A570041DE4E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794322267E9A570041DE4E /* DetailView.swift */; };
 		20794325267E9EBF0041DE4E /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794324267E9EBF0041DE4E /* EventData.swift */; };
+		20794327267FBA0C0041DE4E /* PagerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20794326267FBA0C0041DE4E /* PagerManager.swift */; };
+		25644D6F97CE0ED375A31B5E /* libPods-BuddySystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE5345EAC23AE57705E4CCE /* libPods-BuddySystem.a */; };
+		60EDB72F56E1E004067867C6 /* libPods-BuddyWtchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E66C3968E0A422E613CE779D /* libPods-BuddyWtchTests.a */; };
+		941A364EB2C704B37F3459E1 /* libPods-BuddyWtch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18180C340BAC5CBEABFC18BD /* libPods-BuddyWtch.a */; };
 		AA13BBBF24F567AA005EB048 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBBE24F567AA005EB048 /* EditView.swift */; };
 		AA13BBC124F56EA9005EB048 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBC024F56EA9005EB048 /* ScrumProgressViewStyle.swift */; };
 		AA13BBC324F56EDB005EB048 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA13BBC224F56EDB005EB048 /* ScrumTimer.swift */; };
@@ -48,6 +55,8 @@
 		AAD1604324F5A08F0014DFC3 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1604224F5A08F0014DFC3 /* MeetingTimerView.swift */; };
 		AAD1604524F5B43A0014DFC3 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1604424F5B43A0014DFC3 /* SpeechRecognizer.swift */; };
 		AAD1604924F5BB640014DFC3 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD1604824F5BB640014DFC3 /* HistoryView.swift */; };
+		D185173EA04D57B5B17B2FE9 /* libPods-BuddyWtch-BuddyWtchUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 887C0D2710C5E6F7E42D0D6C /* libPods-BuddyWtch-BuddyWtchUITests.a */; };
+		E5F82BEF54D99003085987D7 /* libPods-BuddyWtch Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF554A2B153DE618E791DB2 /* libPods-BuddyWtch Extension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +116,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18180C340BAC5CBEABFC18BD /* libPods-BuddyWtch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyWtch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF554A2B153DE618E791DB2 /* libPods-BuddyWtch Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyWtch Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		205626DF267FC88D004AEBD8 /* RecordFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordFetcher.swift; sourceTree = "<group>"; };
+		205626E3267FCAAD004AEBD8 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		205626E5267FD703004AEBD8 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
 		207942D1267E82C00041DE4E /* BuddyWtch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyWtch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		207942D3267E82C10041DE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		207942D5267E82C10041DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +145,13 @@
 		20794320267E96150041DE4E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		20794322267E9A570041DE4E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		20794324267E9EBF0041DE4E /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		20794326267FBA0C0041DE4E /* PagerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerManager.swift; sourceTree = "<group>"; };
+		2711FF0BEE03F5B32642CEBB /* Pods-BuddyWtchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyWtchTests.debug.xcconfig"; path = "Target Support Files/Pods-BuddyWtchTests/Pods-BuddyWtchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C896BA2813DB8DCB8DDD7C8 /* Pods-BuddyWtch-BuddyWtchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyWtch-BuddyWtchUITests.release.xcconfig"; path = "Target Support Files/Pods-BuddyWtch-BuddyWtchUITests/Pods-BuddyWtch-BuddyWtchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5866F2A65DFD90C786483E12 /* Pods-BuddyWtch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyWtch Extension.debug.xcconfig"; path = "Target Support Files/Pods-BuddyWtch Extension/Pods-BuddyWtch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		595DE728812E73089990AECB /* Pods-BuddySystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddySystem.release.xcconfig"; path = "Target Support Files/Pods-BuddySystem/Pods-BuddySystem.release.xcconfig"; sourceTree = "<group>"; };
+		847808C0D783A145BD3C45DC /* Pods-BuddyWtchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyWtchTests.release.xcconfig"; path = "Target Support Files/Pods-BuddyWtchTests/Pods-BuddyWtchTests.release.xcconfig"; sourceTree = "<group>"; };
+		887C0D2710C5E6F7E42D0D6C /* libPods-BuddyWtch-BuddyWtchUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyWtch-BuddyWtchUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA13BBBE24F567AA005EB048 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		AA13BBC024F56EA9005EB048 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		AA13BBC224F56EDB005EB048 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
@@ -157,6 +178,13 @@
 		AAD1604224F5A08F0014DFC3 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		AAD1604424F5B43A0014DFC3 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		AAD1604824F5BB640014DFC3 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C1861C8A1C4DF62C3DDD0B78 /* Pods-BuddyWtch-BuddyWtchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyWtch-BuddyWtchUITests.debug.xcconfig"; path = "Target Support Files/Pods-BuddyWtch-BuddyWtchUITests/Pods-BuddyWtch-BuddyWtchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C61FA9F2C4306FE4C8C1248F /* Pods-BuddyWtch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyWtch Extension.release.xcconfig"; path = "Target Support Files/Pods-BuddyWtch Extension/Pods-BuddyWtch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		CB9AAD0BBE3F30267FDAB03F /* Pods-BuddyWtch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyWtch.release.xcconfig"; path = "Target Support Files/Pods-BuddyWtch/Pods-BuddyWtch.release.xcconfig"; sourceTree = "<group>"; };
+		D3B1623922C2D1CF334556FF /* Pods-BuddyWtch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyWtch.debug.xcconfig"; path = "Target Support Files/Pods-BuddyWtch/Pods-BuddyWtch.debug.xcconfig"; sourceTree = "<group>"; };
+		E66C3968E0A422E613CE779D /* libPods-BuddyWtchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyWtchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2C14012F89BE52B36918B7 /* Pods-BuddySystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddySystem.debug.xcconfig"; path = "Target Support Files/Pods-BuddySystem/Pods-BuddySystem.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE5345EAC23AE57705E4CCE /* libPods-BuddySystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddySystem.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F82BEF54D99003085987D7 /* libPods-BuddyWtch Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60EDB72F56E1E004067867C6 /* libPods-BuddyWtchTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +208,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D185173EA04D57B5B17B2FE9 /* libPods-BuddyWtch-BuddyWtchUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5185202318A4656A8D6ECFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941A364EB2C704B37F3459E1 /* libPods-BuddyWtch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +224,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25644D6F97CE0ED375A31B5E /* libPods-BuddySystem.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +298,7 @@
 			children = (
 				20794319267E8EF50041DE4E /* ServiceEvent.swift */,
 				2079431B267E901F0041DE4E /* Color+Codable.swift */,
+				205626E3267FCAAD004AEBD8 /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -266,8 +307,23 @@
 			isa = PBXGroup;
 			children = (
 				20794320267E96150041DE4E /* Card.swift */,
+				20794326267FBA0C0041DE4E /* PagerManager.swift */,
+				205626DF267FC88D004AEBD8 /* RecordFetcher.swift */,
+				205626E5267FD703004AEBD8 /* RecordsView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		26D25BDEBF77346EB4AC2447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE5345EAC23AE57705E4CCE /* libPods-BuddySystem.a */,
+				18180C340BAC5CBEABFC18BD /* libPods-BuddyWtch.a */,
+				1CF554A2B153DE618E791DB2 /* libPods-BuddyWtch Extension.a */,
+				887C0D2710C5E6F7E42D0D6C /* libPods-BuddyWtch-BuddyWtchUITests.a */,
+				E66C3968E0A422E613CE779D /* libPods-BuddyWtchTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AA13BBC424F56F0E005EB048 /* Resources */ = {
@@ -303,6 +359,8 @@
 				20794302267E82C20041DE4E /* BuddyWtchUITests */,
 				AA8ACE8124F44E01007DA4D8 /* Products */,
 				AA8ACE9224F44F85007DA4D8 /* LICENSE */,
+				D40A84DAC626B2F59362553F /* Pods */,
+				26D25BDEBF77346EB4AC2447 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -359,6 +417,23 @@
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
+		D40A84DAC626B2F59362553F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF2C14012F89BE52B36918B7 /* Pods-BuddySystem.debug.xcconfig */,
+				595DE728812E73089990AECB /* Pods-BuddySystem.release.xcconfig */,
+				D3B1623922C2D1CF334556FF /* Pods-BuddyWtch.debug.xcconfig */,
+				CB9AAD0BBE3F30267FDAB03F /* Pods-BuddyWtch.release.xcconfig */,
+				5866F2A65DFD90C786483E12 /* Pods-BuddyWtch Extension.debug.xcconfig */,
+				C61FA9F2C4306FE4C8C1248F /* Pods-BuddyWtch Extension.release.xcconfig */,
+				C1861C8A1C4DF62C3DDD0B78 /* Pods-BuddyWtch-BuddyWtchUITests.debug.xcconfig */,
+				4C896BA2813DB8DCB8DDD7C8 /* Pods-BuddyWtch-BuddyWtchUITests.release.xcconfig */,
+				2711FF0BEE03F5B32642CEBB /* Pods-BuddyWtchTests.debug.xcconfig */,
+				847808C0D783A145BD3C45DC /* Pods-BuddyWtchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -366,8 +441,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20794314267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtch" */;
 			buildPhases = (
+				8126EE7C15B5CC3568212B1D /* [CP] Check Pods Manifest.lock */,
 				207942CF267E82C00041DE4E /* Resources */,
 				2079430C267E82C20041DE4E /* Embed App Extensions */,
+				5185202318A4656A8D6ECFFB /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -383,6 +460,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20794313267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtch Extension" */;
 			buildPhases = (
+				892B036F18BA04ADFE456701 /* [CP] Check Pods Manifest.lock */,
 				207942D6267E82C10041DE4E /* Sources */,
 				207942D7267E82C10041DE4E /* Frameworks */,
 				207942D8267E82C10041DE4E /* Resources */,
@@ -400,6 +478,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20794315267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtchTests" */;
 			buildPhases = (
+				0873914508654C9978ECD2DF /* [CP] Check Pods Manifest.lock */,
 				207942F0267E82C20041DE4E /* Sources */,
 				207942F1267E82C20041DE4E /* Frameworks */,
 				207942F2267E82C20041DE4E /* Resources */,
@@ -418,6 +497,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20794316267E82C20041DE4E /* Build configuration list for PBXNativeTarget "BuddyWtchUITests" */;
 			buildPhases = (
+				5E711F8AD42A17266520CE2A /* [CP] Check Pods Manifest.lock */,
 				207942FB267E82C20041DE4E /* Sources */,
 				207942FC267E82C20041DE4E /* Frameworks */,
 				207942FD267E82C20041DE4E /* Resources */,
@@ -436,6 +516,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA8ACE8F24F44E03007DA4D8 /* Build configuration list for PBXNativeTarget "BuddySystem" */;
 			buildPhases = (
+				255A795AC4945B5F93163476 /* [CP] Check Pods Manifest.lock */,
 				AA8ACE7C24F44E01007DA4D8 /* Sources */,
 				AA8ACE7D24F44E01007DA4D8 /* Frameworks */,
 				AA8ACE7E24F44E01007DA4D8 /* Resources */,
@@ -548,14 +629,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0873914508654C9978ECD2DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuddyWtchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		255A795AC4945B5F93163476 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuddySystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E711F8AD42A17266520CE2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuddyWtch-BuddyWtchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8126EE7C15B5CC3568212B1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuddyWtch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		892B036F18BA04ADFE456701 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuddyWtch Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		207942D6267E82C10041DE4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2079431A267E8EF50041DE4E /* ServiceEvent.swift in Sources */,
+				205626E6267FD703004AEBD8 /* RecordsView.swift in Sources */,
+				205626E4267FCAAD004AEBD8 /* Profile.swift in Sources */,
 				20794323267E9A570041DE4E /* DetailView.swift in Sources */,
+				20794327267FBA0C0041DE4E /* PagerManager.swift in Sources */,
 				20794325267E9EBF0041DE4E /* EventData.swift in Sources */,
+				205626E0267FC88D004AEBD8 /* RecordFetcher.swift in Sources */,
 				207942E4267E82C10041DE4E /* NotificationController.swift in Sources */,
 				207942E2267E82C10041DE4E /* ContentView.swift in Sources */,
 				2079431C267E901F0041DE4E /* Color+Codable.swift in Sources */,
@@ -635,6 +833,7 @@
 /* Begin XCBuildConfiguration section */
 		2079430A267E82C20041DE4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B1623922C2D1CF334556FF /* Pods-BuddyWtch.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -654,6 +853,7 @@
 		};
 		2079430B267E82C20041DE4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9AAD0BBE3F30267FDAB03F /* Pods-BuddyWtch.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -673,6 +873,7 @@
 		};
 		2079430D267E82C20041DE4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5866F2A65DFD90C786483E12 /* Pods-BuddyWtch Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -697,6 +898,7 @@
 		};
 		2079430E267E82C20041DE4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61FA9F2C4306FE4C8C1248F /* Pods-BuddyWtch Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -721,6 +923,7 @@
 		};
 		2079430F267E82C20041DE4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2711FF0BEE03F5B32642CEBB /* Pods-BuddyWtchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -744,6 +947,7 @@
 		};
 		20794310267E82C20041DE4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847808C0D783A145BD3C45DC /* Pods-BuddyWtchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -767,6 +971,7 @@
 		};
 		20794311267E82C20041DE4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1861C8A1C4DF62C3DDD0B78 /* Pods-BuddyWtch-BuddyWtchUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JKW22Z5U4;
@@ -788,6 +993,7 @@
 		};
 		20794312267E82C20041DE4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C896BA2813DB8DCB8DDD7C8 /* Pods-BuddyWtch-BuddyWtchUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JKW22Z5U4;
@@ -925,6 +1131,7 @@
 		};
 		AA8ACE9024F44E03007DA4D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2C14012F89BE52B36918B7 /* Pods-BuddySystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -946,6 +1153,7 @@
 		};
 		AA8ACE9124F44E03007DA4D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595DE728812E73089990AECB /* Pods-BuddySystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

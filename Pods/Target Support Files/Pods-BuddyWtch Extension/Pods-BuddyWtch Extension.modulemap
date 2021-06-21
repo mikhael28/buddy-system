@@ -1,0 +1,6 @@
+module Pods_BuddyWtch_Extension {
+  umbrella header "Pods-BuddyWtch Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}
